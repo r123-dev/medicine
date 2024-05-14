@@ -1,0 +1,519 @@
+Main.css
+
+/* Container styles 
+/* .main-container {
+    margin: 150px auto; /* Auto margin horizontally centers the container 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally 
+    width: 80%; /* Set the width to 60% of the screen 
+    max-width: 1000px; /* Set a maximum width to prevent it from stretching too wide 
+}
+
+.input-wrapper {
+    width: 100%; /* Make the search bar take up the full width 
+    height: 2.5rem;
+    border: none;
+    border-radius: 25px;
+    padding: 0 15px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#search-icon {
+    color: royalblue;
+}
+.back-button {
+    background-color: white; /* Background color same as search bar 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 5px; /* Add margin to separate from input 
+  }
+  
+  .back-button:focus {
+    outline: none;
+  }
+.divider {
+    width: 100%; /* Make the divider take up the full width 
+    margin-top: 40px; /* Adjust the margin to create space 
+    margin-bottom: 20px; /* Adjust the margin to create space 
+    border: 1px solid #ccc;
+}
+.search-button {
+    background: transparent;
+    border: none;
+    color: royalblue;
+    cursor: pointer;
+    outline: none;
+}
+/* Salt info card styles 
+.salt-info {
+    width: 100%; 
+    margin-top: 25px; 
+    border-radius: 25px;
+    margin-bottom: 10px;
+    outline: none;
+    height: 170px;
+    padding: 18px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+ 
+    
+    padding: 0px;
+    width: 100%;
+  }
+  .div1 {
+    border: none;
+    margin: 0px 0px;
+    
+    height: 100%;
+    width: 100%;
+  }
+  .div2 {
+    border: none;
+    margin: 0px 0px;
+  
+    height: 100%;
+    width: 100%;
+  }
+  .div3 {
+    border: none;
+    margin: 0px 0px;
+   
+    height: 100%;
+    width: 100%;
+  }
+.comp1 {
+    
+    width: 100%;
+    height: 33.33%;
+  }
+  .comp2 {
+    
+    width: 100%;
+    height: 33.333%;
+  }
+  .comp3 {
+    
+    width: 100%;
+    height: 33.333%;
+  }
+ 
+  .ccc {
+    margin-top: 40px;
+    height: 38%;
+    
+    width: 100%;
+  }
+  .cc {
+    margin-top: 40px;
+    height: 38%;
+    background-color: #007bff;
+    width: 100%;
+  }
+   */
+  
+  
+
+  /* Main.css */
+  .float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}
+.no-store-message {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 2px dashed black;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 50%;
+  border-radius: 5px;
+}
+.float-child1{
+  width: 50%;
+  float: left;
+  padding: 2px 2px 2px 2px;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  */
+   /* Adds space between buttons */
+  justify-items: start; /* Align items to the left */
+  gap: 4px;
+
+}
+
+.form-button {
+  background-color: white; /* Light blue background for buttons */
+  border: 2px solid black; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 5px 10px; /* Adjust padding to reduce button size */
+  text-align: center; /* Center align text */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9em; /* Adjust font size if needed */
+  display: inline-flex; /* Use inline-flex for buttons to size according to content */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  height: auto; /* Let height adjust based on content */
+  width: auto; /* Let width adjust based on content */
+  min-height: 30px; /* Minimum height to ensure button doesn't get too small */
+  min-width: auto; 
+  /* 60px; */
+   /* Pointer cursor on hover */
+}
+.strength-button {
+  background-color: white; /* Light blue background for buttons */
+  border: 2px solid black; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 5px 10px; /* Adjust padding to reduce button size */
+  text-align: center; /* Center align text */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9em; /* Adjust font size if needed */
+  display: inline-flex; /* Use inline-flex for buttons to size according to content */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  height: auto; /* Let height adjust based on content */
+  width: auto; /* Let width adjust based on content */
+  min-height: 30px; /* Minimum height to ensure button doesn't get too small */
+  min-width: 60px;
+   /* Pointer cursor on hover */
+}
+.packing-button {
+  background-color: white; /* Light blue background for buttons */
+  border: 2px solid black; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 5px 10px; /* Adjust padding to reduce button size */
+  text-align: center; /* Center align text */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9em; /* Adjust font size if needed */
+  display: flex; /* Use flex for buttons to size according to content */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  min-width: 50px;
+   /* Pointer cursor on hover */
+}
+
+.form-button.selected {
+
+  box-shadow: 0 0 7px 1px rgba(1, 1, 80, 0.7);
+  color: rgb(9, 9, 9); /* White text for selected buttons */
+}
+.packing-button.selected {
+
+  box-shadow: 0 0 7px 1px rgba(1, 1, 12, 0.7);
+  color: rgb(9, 9, 9); /* White text for selected buttons */
+}
+.strength-button.selected {
+
+  box-shadow: 0 0 7px 1px rgba(1, 1, 12, 0.7);
+  color: rgb(9, 9, 9); /* White text for selected buttons */
+}
+  .the{
+    padding-left: 38px;
+  }
+  .thhe{
+    padding-left: 13px;
+  }
+  .form-container{
+    padding-left: 20px;
+    display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
+  gap: 10px;
+  height: 33.3%;
+  
+  }
+  .strength-container{
+    padding-left: 20px;
+    display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
+  gap: 10px;
+  
+  }
+  .packing-container{
+    padding-left: 20px;
+    display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if they overflow */
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+  
+  }
+
+/* Container styles */
+.main{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main-container {
+  margin: 200px auto; /* Auto margin horizontally centers the container */
+  display: flex;
+ 
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  width: 65%; /* Set the width to 60% of the screen */
+  /* max-width: 500px; Set a maximum width to prevent it from stretching too wide */
+  margin: 150px auto; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;  
+  
+  /* max-width: 1000px; */
+}
+
+.input-wrapper {
+  width: 100%; /* Make the search bar take up the full width */
+  height: 2.5rem;
+  
+  border: none;
+  border-radius: 25px;
+  padding: 0 15px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: royalblue;
+}
+
+.back-button {
+  background-color: white; /* Background color same as search bar */
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 5px; /* Add margin to separate from input */
+}
+
+.back-button:focus {
+  outline: none;
+}
+
+.divider {
+  width: 100%; /* Make the divider take up the full width */
+  margin-top: 40px; /* Adjust the margin to create space */
+  margin-bottom: 20px; /* Adjust the margin to create space */
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  color: royalblue;
+  cursor: pointer;
+  outline: none;
+}
+.price {
+  font-weight: bold;
+  font-size: 1.8em; /* Adjust the font size as per your requirement */
+}
+
+/* Salt info card styles */
+.salt-info {
+  background: linear-gradient(to right, #ffffff 70%, #b8d2ee); /* Blue color gradient */
+  
+  width: 100%; /* Make the cards take up the full width */
+  margin-top: 25px; /* Adjust the margin to create space */
+  border-radius: 40px;
+  margin-bottom: 10px;
+  outline: none;
+   min-height: 100%;
+   
+  
+  padding: 18px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.main3 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  padding: 0px;
+  width: 100%;
+}
+
+.div1 {
+  border: none;
+  margin: 0px 0px;
+
+  height: 100%;
+  width: 100%;
+  
+}
+.thhe{
+  min-height: 100%;
+}
+
+.div2 {
+  border: none;
+  margin: 0px 0px;
+
+  min-height: 100%;
+  width: 100%;
+}
+
+.div3 {
+  border: none;
+  margin: 0px 0px;
+
+  min-height: 100%;
+  width: 100%;
+}
+
+.comp1 {
+  width: 100%;
+  min-height: 33.33%;
+  
+
+  
+}
+
+.comp2 {
+  width: 100%;
+  min-height: 30%;
+}
+
+.comp3 {
+  width: 100%;
+  min-height: 37%;
+}
+
+.ccc {
+  margin-top: 65px;
+  height: 38%;
+  width: 100%;
+}
+
+.no-store-message {
+  background-color:white; /* Red background color */
+  color: black; /* Dark red text color */
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid blue;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 50%;
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.cc {
+  margin-top: 35px;
+  height: 38%;
+  
+  width: 100%;
+}
+
+
+
+  
+  .info {
+    display: flex;
+  }
+  
+  .section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .solid {
+    background-color: #007bff;
+    color: white;
+  }
+  
+
+  
+  .price {
+    margin-top: 10px;
+  }
+  
+  .type {
+    margin-top: 10px;
+  }
+  
+  .features {
+    margin-top: 10px;
+  }
+  
+  /* Add other styles as needed */
+  .dashed{
+    border-style: dashed;
+  }
+  .section h3 {
+    margin-bottom: 10px;
+  }
+  text{
+    padding-left: 100%;
+    padding-right: 0%;
+
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+
+  
+
+  
+  
